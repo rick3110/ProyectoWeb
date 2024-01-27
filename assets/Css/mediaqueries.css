@@ -1,0 +1,173 @@
+@media (max-width:992px) {
+    .navbar {
+        gap: 15px;
+    }
+
+    .cart-icon {
+        height: 40px;
+        margin-right: 0rem;
+        margin-top: 5px;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 70px;
+        left: 6%;
+        right: 6%;
+        width: 98%;
+        flex-direction: column;
+        background-color: pink;
+        border: 2px solid palevioletred;
+        border-top: 0px;
+        border-radius: 0 0 10px 10px;
+        align-items: flex-start;
+        padding: 40px 25px;
+        gap: 20px;
+        z-index: 2;
+        display: none;
+    }
+
+    .navbar-list {
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .navbar i {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    i {
+        height: 18px;
+        width: 25;
+    }
+
+
+    #toggle-menu:checked + .navbar-list {
+        display: flex;
+    }
+
+    .hero-info {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .hero-info h1 {
+        width: 100%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .hero-info p {
+        width: 55%;
+        max-width: 600px;
+    }
+
+    .img-hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25px;
+    }
+
+    h2, .texto {
+        text-align: center;
+        width: 100%;
+    }
+
+    #productos-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-contenedor {
+        max-width: 80%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        width: 45%;
+    }
+
+    span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    #hero {
+        flex-direction: column;
+    }
+
+    .hero-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-info p {
+        width: 90%;
+    }
+
+    .img-hero {
+        display: none;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        width: 100%
+    }
+
+    .Footer-link, .instagram, 
+    .facebook, .whatsApp {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightpink;
+}
+
+.contenedor-registro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.for-registro {
+    background: url(../Img/LogoSample_ByTailorBrands-fotor-bg-remover-20240103201218.png) no-repeat center/cover;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 100px;
+    gap: 20px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.nombre-apellido {
+    display: flex;
+    gap: 20px;
+}
+
+.nombre, .apellido {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.telefono {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pass-pass-repet {
+    display: flex;
+    gap: 20px;
+}
+
+.pass {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pass-repet {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 1rem;
+    border: 1px solid blueviolet;
+}
+
+.bttn {
+    background-color: white;
+    border-radius: 1rem;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}

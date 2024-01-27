@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(../Img/local.png) no-repeat center/cover;
+}
+
+.contenedor-login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 30px;
+}
+
+h1, .email-login, .pass-login {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.email-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pass-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.recuperar {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 0.2rem;
+    border: 1px solid ;
+    border: none;
+}
+
+p, a {
+    font-size: 10px;
+    color: black;
+}
+
+button {
+    width: 150px;
+    padding: 5px;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
